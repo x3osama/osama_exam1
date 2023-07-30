@@ -1,0 +1,123 @@
+body{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: Helvetica, serif;
+}
+.grid_container{
+    display: inline-grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+@media (max-width: 849px) {
+    .flex_container{
+        display: inline-grid;
+    }
+    .Box1{
+        display: grid;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        width: 849px;
+        margin-right: 0;
+    }
+    .Box2{
+        display: grid;
+        grid-row-start: 2;
+        grid-row-end: 3;
+                margin-right: 0;
+
+    }
+    .Box3{
+         display: grid;
+        grid-row-start: 3;
+        grid-row-end: 4;
+                margin-right: 0;
+
+
+    }
+    h5{
+        padding-right: 20px;
+    }
+
+}
+.Box1{
+    text-align: left;
+    background-color: gray;
+    display: inline-block;
+    border:3px solid #000;
+    margin-right: 0;
+/*width:475.13px;*/
+    padding-bottom:0;
+    padding-left: 5px;
+}
+.Box2 {
+    text-align: left;
+    background-color: gray;
+    display: inline-block;
+    border: 3px solid #000;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    padding-left: 5px;
+}
+.Box3 {
+    text-align: left;
+    background-color: gray;
+    display: inline-block;
+    border: 3px solid #000;
+    margin-left: 0;
+    padding-right: 0;
+    padding: 0;
+    padding-left: 5px;
+}
+.title h3{
+    display:inline;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 400px;
+    background-color: pink;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    font-family: -apple-system;
+
+
+}
+.Beef h3{
+    display:inline;
+        border-radius: 5px;
+    border: 1px solid #000000;
+    margin-left: 380px;
+    background-color: red;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    font-family: -apple-system;
+
+}
+.Sushi h3{
+    display:inline;
+        border-radius: 5px;
+    border: 1px solid #000000;
+    margin-left: 350px;
+    position: relative;
+    background-color: yellow;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+font-family: -apple-system;
+}
+.Box p{
+   font-family:Helvetica,serif;
+}
+h5{
+    /*object-position: left;*/
+    margin-bottom: 0;
+    /*margin-bottom: 0;*/
+    /*margin-right: 420px;*/
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: deeppink;
+    
+}
